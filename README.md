@@ -71,3 +71,23 @@ Bienvenido a tu curso de Python. Este curso está diseñado para llevarte desde 
 ## Conclusión
 Este curso te proporcionará las habilidades necesarias para avanzar en tu carrera como científico de datos o ingeniero de datos. ¡Buena suerte y disfruta del aprendizaje!
 
+---
+
+<style>
+  h1 {
+    color: #2E86C1;
+  }
+  h2 {
+    color: #2874A6;
+  }
+  h3 {
+    color: #1F618D;
+  }
+  ul {
+    list-style-type: square;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+</style>
+
