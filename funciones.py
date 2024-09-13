@@ -3,3 +3,8 @@ def saludo ():
     print('A pesar de su pobreza, siempre estaba feliz y agradecida por lo poco que tenía')
 
 saludo()
+
+def resta(a,b):
+    return a - b
+c=resta(10,5)
+print(f'La resta es: {c}')
