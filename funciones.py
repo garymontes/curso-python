@@ -1,10 +1,27 @@
-def saludo ():
-    print('Había una vez una viejecita que vivía en una casita muy humilde.')
-    print('A pesar de su pobreza, siempre estaba feliz y agradecida por lo poco que tenía')
+def suma():
+  global a
+  global b 
+  a=int(input('Ingrese el valor de a: '))
+  b=int(input('Ingrese el valor de a: '))
+  return a+b
 
-saludo()
+def resta():
+    return a-b
 
-def resta(a,b):
-    return a - b
-c=resta(10,5)
-print(f'La resta es: {c}')
+def multiplicacion():
+    return a*b
+
+def division():
+    return a/b
+
+c=suma()
+print(f'La suma de {a,b} es: {c}')
+
+d=resta()
+print(f'La resta de {a,b} es: {d}')
+
+e=multiplicacion()
+print(f'La multiplicacion de {a,b} es: {e}')
+
+f=division()
+print(f'La division de {a,b} es: {f}')
