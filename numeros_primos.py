@@ -4,7 +4,6 @@ a=int(input('Escriba un número entre dire si es primo: '))
 
 
 for i in range(2,a):
-    print(f'la primera iteración i vale: {i}')
     if a % i==0:
         print(f'El número {a} no es primo')
         break
