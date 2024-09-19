@@ -14,14 +14,19 @@ def multiplicacion():
 def division():
     return a/b
 
-c=suma()
-print(f'La suma de {a,b} es: {c}')
+if __name__ == '__main__':
+    
+    print(__name__)
+    c=suma()
+    print(f'La suma de {a,b} es: {c}')
 
-d=resta()
-print(f'La resta de {a,b} es: {d}')
+    d=resta()
+    print(f'La resta de {a,b} es: {d}')
 
-e=multiplicacion()
-print(f'La multiplicacion de {a,b} es: {e}')
+    e=multiplicacion()
+    print(f'La multiplicacion de {a,b} es: {e}')
 
-f=division()
-print(f'La division de {a,b} es: {f}')
+    f=division()
+    print(f'La division de {a,b} es: {f}')
+
+
