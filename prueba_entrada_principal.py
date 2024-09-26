@@ -21,7 +21,7 @@ if __name__=='__main__':
 
     c=int(input('Ingrese la tabla de multiplicar: '))    
     operaciones(c)
-    operaciones(10)
+    
     
 
         
