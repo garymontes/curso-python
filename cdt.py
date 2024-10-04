@@ -10,6 +10,8 @@ def cdt_lulo():
     
     inv_inicial=int(input('Ingrese un valor para la inversión: '))
     f=inv_inicial*1
+    print(f'El id de inv_inicial es: {id(inv_inicial)}')
+    print(f'El id de f es: {id(f)}')
     abonos=int(input('Ingrese un abono fijo mensual: '))
     
     
