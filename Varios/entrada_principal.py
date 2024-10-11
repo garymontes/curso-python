@@ -1,4 +1,4 @@
-from prueba_entrada_principal import operaciones
+from Varios.prueba_entrada_principal import operaciones
 
 def run():
     operaciones(23)
