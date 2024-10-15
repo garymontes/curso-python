@@ -16,7 +16,7 @@ def cdt_lulo():
     print(f'La inversión inicial en Lulo Bank será de: {inv_inicial:,} millones COP')
     print('')
     
-    for i in range(1,49):
+    for i in range(1,13):
         ic=inv_inicial*tasa_Mensual
         g=ic+inv_inicial+abonos*tasa_Mensual+abonos
         print(f'Intereses del mes: {i} seran de: {ic:,.0f} total: {g:,.0f}')
