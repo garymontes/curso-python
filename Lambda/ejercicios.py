@@ -13,8 +13,20 @@ def resta():
 def multiplicacion():
     mult= lambda a,x : a*x
     print(f'La multiplicación es: {mult(5,5)}')
+    
+def division(a,b):
+    return lambda: a/b
+    #divi= lambda a,b: a/b
+    #print(f'La división es: {divi(100,50)}')
+    
+    
 
     print()
 if __name__=='__main__':
-    multiplicacion()
+    x=int(input('Ingrese el numerador: '))
+    y=int(input('Ingrese el denominador: '))
+    div=division(x,y)
+    print(f'El resultado es: {div()}')
+    #division()
+    
 
