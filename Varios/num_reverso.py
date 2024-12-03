@@ -6,10 +6,9 @@ def main():
     
     while a>0:
         digito=a%10
-        print(f'El número va por: {digito}')
         num_inv=num_inv*10+digito
-        print(f'El número invertido va por: {num_inv}')
         a=a//10
+        
     print(f'El número invertido es: {num_inv} ')
     
 
