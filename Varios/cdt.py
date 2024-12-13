@@ -25,7 +25,7 @@ def cdt_lulo():
     print(f'Los interes totales ganados en {i} meses serian: {g-f:,.0f}')
     print('')
         
-    
+    print('')
         
         
         
