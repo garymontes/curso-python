@@ -2,13 +2,15 @@
 # Implementa un método para imprimir una descripción del libro y otro método para saber si el libro tiene más de 500 páginas.
 
 class Libro:
-    def __init__(self, titulo, autor, paginas):
+    def __init__(self, titulo, autor, paginas, nobel=True):
         self.titulo=titulo
         self.autor=autor
         self.paginas=paginas
+        self.nobel=nobel
 
     def descripcion(self):
         print(f'El libro {self.titulo} del autor {self.autor} tiene {self.paginas}')
+        print(f'{self.autor} fue ganador del nobel? {self.nobel} ')
 
     
 def run():
