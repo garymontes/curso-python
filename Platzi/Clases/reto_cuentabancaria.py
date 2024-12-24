@@ -3,15 +3,15 @@
 
 
 class CuentaBancaria:
-    def __init__(self, num_cuenta, saldo=0):
+    def __init__(self, num_cuenta, saldo):
         self.num_cuenta=num_cuenta
         self.saldo=saldo
 
-    def depositar(self,cantidad=1000):
+    def depositar(self,cantidad=5000):
         self.saldo+=cantidad
         print(f'Se hizo un deposito a la cuenta #: {self.num_cuenta}. El nuevo saldo es: {self.saldo}')
 
-    def retirar(self,cantidad=80):
+    def retirar(self,cantidad=100):
         if cantidad>self.saldo:
             print(f'Fondos insuficientes.')
         else:
