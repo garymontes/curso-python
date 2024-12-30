@@ -47,5 +47,5 @@ def primera_letra():
 
 
 if __name__=='__main__':
-    pass
+    num_pares()
     

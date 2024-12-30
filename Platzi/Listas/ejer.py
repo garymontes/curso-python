@@ -15,7 +15,8 @@ suma=0
 for i in range(c):
    a=int(input(f'Ingrese el valor número {i} a la lista: '))
    lista.append(a)
-   suma=suma+lista[0]
+   suma=suma+lista[i]
+   
 print(f'Los valores de la lista son los siguientes: {lista}')
 
 
