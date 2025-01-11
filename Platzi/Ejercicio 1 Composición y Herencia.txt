@@ -1,0 +1,70 @@
+Ejercicio 1: Composición y Herencia
+Crea una clase Libro que contenga información sobre un libro (título, autor, año de publicación). Luego, crea una clase Libreria que tenga una lista de libros y métodos para agregar, eliminar y buscar libros en la lista.
+
+Requisitos:
+Define la clase Libro con los atributos título, autor y año.
+
+Define la clase Libreria con una lista de libros y métodos para agregar, eliminar y buscar libros.
+
+Crea instancias de Libro y añádelas a la Libreria.
+
+Implementa un método para mostrar todos los libros en la librería.
+---------------------------------------------------------------------------------------------------------
+
+Ejercicio 2: Sobreescritura de Métodos
+Crea una clase base CuentaBancaria con métodos para depositar y retirar dinero, y obtener el saldo actual. Luego, crea una clase derivada CuentaAhorro que tenga un método adicional para calcular los intereses.
+
+Requisitos:
+Define la clase CuentaBancaria con métodos depositar, retirar y obtener_saldo.
+
+Define la clase CuentaAhorro que herede de CuentaBancaria y tenga un método calcular_intereses.
+
+Crea instancias de CuentaBancaria y CuentaAhorro, y realiza operaciones de depósito, retiro y cálculo de intereses.
+--------------------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 3: Herencia Múltiple
+Crea una clase Musico con un método tocar_instrumento y una clase Bailarin con un método bailar. Luego, crea una clase Artista que herede de ambas y tenga métodos para tocar y bailar.
+
+Requisitos:
+Define la clase Musico con un método tocar_instrumento.
+
+Define la clase Bailarin con un método bailar.
+
+Define la clase Artista que herede de Musico y Bailarin.
+
+Crea instancias de Artista y muestra sus habilidades.
+------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 4: Clases Abstractas e Interfaces
+Crea una clase abstracta FiguraGeometrica con métodos abstractos area y perimetro. Luego, crea clases derivadas Circulo y Rectangulo que implementen estos métodos.
+
+Requisitos:
+Define la clase abstracta FiguraGeometrica con métodos abstractos area y perimetro.
+
+Define la clase Circulo que herede de FiguraGeometrica e implemente los métodos area y perimetro.
+
+Define la clase Rectangulo que herede de FiguraGeometrica e implemente los métodos area y perimetro.
+
+Crea instancias de Circulo y Rectangulo y muestra sus áreas y perímetros.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 5: Herencia y Polimorfismo
+Crea una clase base Vehiculo con un método moverse. Luego, crea clases derivadas Avion, Coche y Bicicleta que sobrescriban el método moverse con comportamientos específicos.
+
+Requisitos:
+Define la clase Vehiculo con un método moverse.
+
+Define la clase Avion que herede de Vehiculo y sobrescriba el método moverse.
+
+Define la clase Coche que herede de Vehiculo y sobrescriba el método moverse.
+
+Define la clase Bicicleta que herede de Vehiculo y sobrescriba el método moverse.
+
+Crea instancias de Avion, Coche y Bicicleta, y llama al método moverse.
+
+Estos ejercicios te permitirán practicar y profundizar en tus conocimientos de programación orientada a objetos. ¡Diviértete resolviéndolos! Si necesitas ayuda con alguno en particular, solo házmelo saber.
+
+
+
+

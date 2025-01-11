@@ -22,8 +22,8 @@ class Designacion(Empleado, Salario):
     def __str__(self):
         return f'El empleado {self.nombre} tiene un salario de {self.salario} y su cargo es {self.cargo}'
 
-if __name__ =='__main__':
-    a=input('Ingrese el cargo del empleado: ')
-    empleado=Designacion(a)
-    print(empleado)      
+
+a=input('Ingrese el cargo del empleado: ')
+empleado=Designacion(a)
+print(empleado)      
         
