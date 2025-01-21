@@ -40,12 +40,12 @@ def mul():
 
 def per2():
     a=[['Gary','Susana','Susanita'],['Bracamonte','Margarita','Olier'],[41,9,38]]
-    print(a.)
+    print(a)
     print('-'*50)
 
 
 if __name__=='__main__':
-    per2()
+    matriz()
 
 
 print('\n')

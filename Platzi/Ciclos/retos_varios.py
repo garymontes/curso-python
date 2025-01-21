@@ -1,26 +1,22 @@
-'''
-a=11
+
+'''a=11
 print(type(a))
 for i in range(a):
     if i < 11:
         a-=1
-        print(a)
-'''
+        print(a)'''
 
-'''for i in range(10,0,-1):
-    print(i)'''
+print('-'*60)
 
-''''a=int(input('Ingrese un número para imprimir de forma descendente: '))
-b=a'''
+# imprimir los números pares 
 
-'''for i in range(b+1):
-    if i < b:
-        a-=1
-        print(f'El número es {a}')'''
+p=int(input(f'Ingresa un número para sacar los números pares: '))
+print(f'El número escogido es: {p}')
+print('-'*60)
+a=[]
 
-# Sumar números del 100 al 200
-
-'''suma=0
-for i in range(100,201):
-    suma+=i
-    print(suma)'''
+for i in range (p+1):
+    if i %2==0:
+        a.append(i)
+        
+print(f'Los números pares son: {a}')

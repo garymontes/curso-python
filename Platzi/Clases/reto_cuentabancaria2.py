@@ -28,14 +28,26 @@ class CuentaBancaria():
 
 class CuentaAhorro(CuentaBancaria):
     
-    def __init__(self):
-        super().__init__()
+    def __init__(self,banco, cuenta_bancaria, titular_cuenta, saldo):
+        super().__init__(banco, cuenta_bancaria, titular_cuenta, saldo)
+        
+        
+        
     
-    def calcular_interes(self):
-        pass
+    def calcular_interes(self,tiempo, interes):
+        
+        return (f'{self.titular_cuenta}, {self.banco}, {self.cuenta_bancaria}, los intereses son: {tiempo*interes*self.saldo}')
 
     
 deposito1=CuentaBancaria('Bancolombia', '67858063954', 'Gary Montes',100)
 
 print(deposito1.depositar(1000))
 print(deposito1.__str__())
+
+inter=CuentaAhorro('Banco Bogotá', '3053242594', 'Susanita', 500000)
+
+print(inter.calcular_interes(6,5))
+
+
+
+    

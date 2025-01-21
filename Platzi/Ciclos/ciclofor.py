@@ -1,5 +1,5 @@
 for i in range(11):
-    print(i*i)
+    print(f'{i}X{i}= {i*i}')
 print('-'*20)
 
 a='curso de python'
