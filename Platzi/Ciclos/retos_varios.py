@@ -6,7 +6,7 @@ for i in range(a):
         a-=1
         print(a)'''
 
-print('-'*60)
+'''print('-'*60)
 
 # imprimir los números pares 
 
@@ -19,4 +19,8 @@ for i in range (p+1):
     if i %2==0:
         a.append(i)
         
-print(f'Los números pares son: {a}')
+print(f'Los números pares son: {a}')'''
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"i: {i}, j: {j}")

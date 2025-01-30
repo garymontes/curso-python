@@ -27,6 +27,7 @@ def matriz():
         for j in range(1,4):
             print(f'({i}-{j})', end=' ')
         print()
+    
 
 def mul():
     a=int(input('Ingrese el primer valor:'))
@@ -42,6 +43,7 @@ def per2():
     a=[['Gary','Susana','Susanita'],['Bracamonte','Margarita','Olier'],[41,9,38]]
     print(a)
     print('-'*50)
+    
 
 
 if __name__=='__main__':
